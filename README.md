@@ -104,3 +104,12 @@ Move Right: F
 
 ### For good scale estimation:  
 Scale estimation is based on vertical motion so in the first few seconds of flight, flying the AR-Drone vertically will lead to a good scale estimate.
+
+###Authors:
+Daniel Gehrig (ETH Zurich)
+Maximilian Göttgens (ETH Zurich)
+Brian Paden (MIT)
+2017年5月13日发布
+
+This work describes an open source software package in the Robot Operating System (ROS) framework for conducting robotics research with the Parrot AR.Drone 2.0. The software builds upon existing tools by adapting the ORB-SLAM library with a ROS driver for the drone so that a scaled monocular-SLAM based map and accurate pose estimate
+is available for navigation and control processes. A focus of the discussion is on robust scale estimation for the monocular SLAM generated map using sensor data from the drone’s on- board sensors. The purpose of this package is to provide an easy to use platform for experimental testing of autonomous
